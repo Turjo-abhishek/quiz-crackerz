@@ -9,9 +9,9 @@ const Question = ({ questions, serial }) => {
     let ques = question.replace(/(<([^>]+)>)/gi, "");
     const correctAns = () => {
       toast(`Correct Answer: ${correctAnswer}`, { 
-        toastId: "success1",
         position: "top-center",
         autoClose: 2000,
+        toastId: 'customId',
       });
     };
     const handleAnswer = (event) => {
@@ -21,11 +21,13 @@ const Question = ({ questions, serial }) => {
         toast.success("Correct!", {
           position: "top-center",
           autoClose: 2000,
+          toastId: 'customId',
         });
       } else {
         toast.error("Inorrect!", {
           position: "top-center",
           autoClose: 2000,
+          toastId: 'customId',
         });
       }
     };
