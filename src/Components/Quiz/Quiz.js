@@ -12,7 +12,7 @@ const Quiz = () => {
         <div className=''>
             <h3>Questions of {name}</h3>
             {
-                questions.map((question,index)=><Question key={question.id} question={question} serial={index}></Question>)
+                questions.map((question,index)=><Question key={question.id} questionss={question} serial={index}></Question>)
             }
                     <ToastContainer></ToastContainer>
 
