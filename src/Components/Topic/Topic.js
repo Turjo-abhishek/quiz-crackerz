@@ -21,7 +21,7 @@ const Topic = ({ topic }) => {
           <Link to={`/quiz/${id}`}>
             <button className="d-flex justify-content-around btn btn-primary">
               Start Practice
-              <ArrowRightIcon className="icon my-auto ml-2" />
+              <ArrowRightIcon className="icon my-auto" />
             </button>
           </Link>
         </div>
