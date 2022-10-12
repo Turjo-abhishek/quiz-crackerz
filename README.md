@@ -72,5 +72,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### My information comes from here
 
-Firstly I tried to make a representation of the project in my mind that how i wil design the part. Most of the time gets wasted for me on designing part. So first I started with tailwind css but than thought to shift to bootstrap cdn links.
-I created
+Firstly I tried to make a representation of the project in my mind that how i wil design the part. Most of the time gets wasted for me on designing part. So first I started with tailwind css but than thought to shift to bootstrap cdn links.\
+I created an app using npx create-react-app command and also added hero-icons, react-router-dom, react-toastify etc. to my app.\
+Then started the project with npm start and started making navbar first. after finishing navbar i did topics part. Then after finishing the design completely with lot of effort on making it responsive, I started doing the banner part.\
+After that I started working on Blog part and made it responsive.
+Did the statistics part and made it responsive using the responsive container found on their official site. \
+Throughout the whole process I had to go through the documentation and have searched on the internet whatever i was feeling confused about. I also joined support sessions to understand necessary parts and finally I finished the project.
