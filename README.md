@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### My information comes from here
+
+Firstly I tried to make a representation of the project in my mind that how i wil design the part. Most of the time gets wasted for me on designing part. So first I started with tailwind css but than thought to shift to bootstrap cdn links.
+I created
