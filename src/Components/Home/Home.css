@@ -5,7 +5,13 @@
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
 }
 
-
+.header{
+    font-family: 'Bree Serif', serif;
+}
+.inner-text{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
 .color-overlay{
     position: absolute;
     width: 100%;
@@ -19,6 +25,6 @@
 }
 .color-overlay p{
     width: 50%;
-    font-size: 20px;
+    font-size: 18px;
     color: antiquewhite;
 }

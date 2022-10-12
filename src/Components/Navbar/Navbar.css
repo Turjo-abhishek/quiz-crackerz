@@ -2,6 +2,18 @@
     background-image: radial-gradient(circle, #ef99a9, #cc8b9a, #ab7e89, #8a7078, #6b6265);
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
 }
+.navbar-left{
+    font-family: 'Bree Serif', serif;
+    font-size: 35px !important;
+    font-weight: 800 !important;
+}
+
+.font-poppins{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
 
 .navbar-brand{
     font-weight: 600;
@@ -9,4 +21,7 @@
 }
 .nav-item a{
     font-weight: 400;
+}
+.nav-item a:hover{
+    color: khaki !important;
 }
