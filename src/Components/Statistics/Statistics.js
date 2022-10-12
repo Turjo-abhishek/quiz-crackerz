@@ -13,7 +13,6 @@ import "./Statistics.css";
 
 const Statistics = () => {
   const quizes = useLoaderData().data;
-  console.log(quizes);
   return (
     <div className="custom-statistics">
       <ResponsiveContainer width='75%' height={300}>

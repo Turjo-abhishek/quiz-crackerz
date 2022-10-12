@@ -5,7 +5,6 @@ import "./Topic.css";
 
 const Topic = ({ topic }) => {
   const { name, logo, total, id } = topic;
-  console.log(topic);
   return (
     <div className="col-md-3 single-card">
       <div className="card">
