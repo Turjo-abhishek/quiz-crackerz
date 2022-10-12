@@ -9,10 +9,10 @@ const Quiz = () => {
     const {name,questions}=singlequiz;
 
     return (
-        <div className=''>
-            <h3>Questions of {name}</h3>
+        <div style={{marginTop:'80px'}}>
+            <h3 style={{marginBottom:'40px'}}>Questions of {name}</h3>
             {
-                questions.map((question,index)=><Question key={question.id} questionss={question} serial={index}></Question>)
+                questions.map((question,index)=><Question key={question.id} questions={question} serial={index}></Question>)
             }
                     <ToastContainer></ToastContainer>
 

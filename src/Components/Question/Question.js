@@ -1,11 +1,11 @@
 import React from 'react';
 import { EyeIcon } from "@heroicons/react/24/solid";
 import "./Question.css";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const Question = ({ questionss, serial }) => {
-    const { question, options, correctAnswer } = questionss;
+const Question = ({ questions, serial }) => {
+    const { question, options, correctAnswer } = questions;
     let ques = question.replace(/(<([^>]+)>)/gi, "");
     const correctAns = () => {
       toast.success(`Correct Answer: ${correctAnswer}`, {
@@ -30,12 +30,12 @@ const Question = ({ questionss, serial }) => {
     return (
       <div>
         <div className="question">
-          <div className="card mb-5">
+          <div className="card custom-card mb-5">
             <div className="card-title mb-3 mt-3">
               <div className="row">
                 <div className="col-md-10">
                   <h4>
-                    Quiz {serial + 1}:{ques}
+                    Quiz {serial + 1}: {ques}
                   </h4>
                 </div>
                 <div className="col-md-2">
@@ -49,7 +49,7 @@ const Question = ({ questionss, serial }) => {
                 {options.map((option, index) => (
                   <div className="col-md-6" key={index}>
                     <div className="d-flex align-items-center justify-content-between option w-100">
-                      <label htmlFor={option}>
+                      <label className='label-custom' htmlFor={option}>
                         <input
                           type="radio"
                           id={option}
@@ -57,8 +57,9 @@ const Question = ({ questionss, serial }) => {
                           onChange={handleAnswer}
                           value={option}
                         />
-  
+                        <div className='answer-custom'>
                         {option}
+                        </div>
                       </label>
                     </div>
                   </div>
