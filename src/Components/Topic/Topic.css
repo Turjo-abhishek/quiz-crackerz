@@ -12,21 +12,28 @@
 .icon{
     width:15px;
     height:15px;
-    
 }
 .btn{
-    background-color: #25a196;
+    /* background-color: #e8c3b8; */
+    background-image: linear-gradient(to left, #ba7581, #ac7681, #9f7680, #91767d, #83767a);
     border:none;
     margin: 10px auto;
+    font-weight: 700;
+    padding: 10px 20px;
 }
 .card-body{
     align-items: center;
 }
 .card-body h6{
-    color:black;
+    color: black;
     font-weight: 700;
     font-size: 25px;
     margin-bottom: 10px;
+}
+.card-body h5{
+    font-weight: 500;
+    color: black;
+    margin-bottom: 5px;
 }
 .card-body a{
     text-decoration: none;
