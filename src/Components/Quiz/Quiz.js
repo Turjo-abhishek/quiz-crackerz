@@ -1,7 +1,7 @@
 import React from 'react';
 import {useLoaderData} from 'react-router-dom';
 import Question from '../Question/Question';
-import {toast,ToastContainer} from 'react-toastify';
+import {ToastContainer} from 'react-toastify';
 
 const Quiz = () => {
     const quiz=useLoaderData();
