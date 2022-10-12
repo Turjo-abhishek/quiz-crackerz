@@ -1,5 +1,12 @@
-.custom-nav{
-    background: linear-gradient(90deg, hsla(4, 48%, 94%, 1) 0%, hsla(66, 70%, 80%, 1) 100%);
-    padding: 30px;
+.navbar{
+    background-image: radial-gradient(circle, #ef99a9, #cc8b9a, #ab7e89, #8a7078, #6b6265);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
 }
 
+.navbar-brand{
+    font-weight: 600;
+    font-size: 30px;
+}
+.nav-item a{
+    font-weight: 400;
+}

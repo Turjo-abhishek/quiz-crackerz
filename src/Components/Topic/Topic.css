@@ -1,0 +1,33 @@
+.single-card{
+    padding: 10px;
+}
+.single-card img{
+    width: 250px;
+    margin: 0 auto;
+}
+.card{
+    background-color: #b3bbbc6f;
+    border:none;
+}
+.icon{
+    width:15px;
+    height:15px;
+    
+}
+.btn{
+    background-color: #25a196;
+    border:none;
+    margin: 10px auto;
+}
+.card-body{
+    align-items: center;
+}
+.card-body h6{
+    color:black;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.card-body a{
+    text-decoration: none;
+}
