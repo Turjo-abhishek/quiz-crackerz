@@ -5,6 +5,7 @@
 .custom-card{
     padding: 10px;
     background-color: khaki;
+    box-shadow: 0 3px 10px rgba(119, 118, 44, 0.6);
 }
 .option{
     border:2px solid white;
