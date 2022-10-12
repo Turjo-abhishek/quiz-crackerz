@@ -8,21 +8,24 @@ const Question = ({ questions, serial }) => {
     const { question, options, correctAnswer } = questions;
     let ques = question.replace(/(<([^>]+)>)/gi, "");
     const correctAns = () => {
-      toast.success(`Correct Answer: ${correctAnswer}`, {
+      toast(`Correct Answer: ${correctAnswer}`, { 
         toastId: "success1",
         position: "top-center",
+        autoClose: 2000,
       });
     };
     const handleAnswer = (event) => {
       const answer = event.target.value;
   
       if (answer === correctAnswer) {
-        toast("Correct!", {
+        toast.success("Correct!", {
           position: "top-center",
+          autoClose: 2000,
         });
       } else {
-        toast("Inorrect!", {
+        toast.error("Inorrect!", {
           position: "top-center",
+          autoClose: 2000,
         });
       }
     };
@@ -40,7 +43,6 @@ const Question = ({ questions, serial }) => {
                 </div>
                 <div className="col-md-2">
                   <EyeIcon onClick={correctAns} className="eye"></EyeIcon>
-                  {/* <ToastContainer></ToastContainer> */}
                 </div>
               </div>
             </div>

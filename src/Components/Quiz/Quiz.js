@@ -14,7 +14,7 @@ const Quiz = () => {
             {
                 questions.map((question,index)=><Question key={question.id} questions={question} serial={index}></Question>)
             }
-                    <ToastContainer></ToastContainer>
+                    <ToastContainer toastStyle={{ fontWeight:'bold', fontSize: '20px' }}></ToastContainer>
 
         </div>
     );
